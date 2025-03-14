@@ -6,7 +6,7 @@ import { provideClientHydration, withEventReplay, } from '@angular/platform-brow
 
 export const appConfig: ApplicationConfig = {
   providers: [provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes,withViewTransitions()), 
+    provideRouter(routes,withHashLocation(),withViewTransitions()), 
     provideClientHydration(withEventReplay()),
     ]
 };
