@@ -1,0 +1,24 @@
+<section class="contact d-block align-items-center align-content-center ">
+    <div class="container  align-content-center align-items-center ">
+
+<div class="text-center mb-5">
+    <h1 class="text-center">Conatct Section</h1>
+    <div class="line-star"></div>
+    <i class="fas fa-star mx-2"></i>
+    <div class="line-star"></div>
+</div>
+<form action="">
+<div class=" fcontact mb-3 mx-auto overflow-hidden">
+    <label for="username" class="form-label top-400 position-relative "[class.top-0]="userName.length>0">userName</label>
+    <input  type="text" class="form-control border-top-0 border-end-0 border-start-0 " id="username" placeholder="userName" [(ngModel)]="userName">
+    <label for="userage" class="form-label  top-400 position-relative "[class.top-0]="userAge.length>0" >userAge</label>
+    <input type="text" class="form-control border-top-0 border-end-0 border-start-0 " id="userage" placeholder="userAge" [(ngModel)]="userAge">
+    <label for="useremail" class="form-label  top-400 position-relative "[class.top-0]="userEmail.length>0" >userEmail</label>
+    <input type="email" class="form-control border-top-0 border-end-0 border-start-0" id="useremail" placeholder="userEmail" [(ngModel)]="userEmail">
+    <label for="userpassword" class="form-label  top-400 position-relative "[class.top-0]="userPassword.length>0">userPassword</label>
+    <input type="password" class="form-control border-top-0 border-end-0 border-start-0" id="userpassword" placeholder="userPassword" [(ngModel)]="userPassword">
+    <button class="btn btn-outline-success mt-2 active">Send Message</button>
+</div>
+</form>
+</div>
+</section>

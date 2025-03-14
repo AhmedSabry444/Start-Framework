@@ -1,0 +1,28 @@
+
+.line-star{
+    background-color: #2C3E50;
+}
+h1{
+    color:rgb(44, 62, 80);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.layer{
+    inset: 0;
+    background-color: rgba(26,188,156,0.5);
+    opacity: 0;
+    transition: all .3s;
+}
+
+.inner:hover .layer{
+    opacity: 1;
+}
+
+.myModal{
+    inset: 0;
+    z-index: 2000;
+    background-color: rgba(194,219, 254, .6);
+}

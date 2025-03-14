@@ -1,0 +1,24 @@
+<div class="text-center mt-4">
+<h1>Portfolio Component</h1>
+<div class="line-star "></div>
+<i class="fas fa-star mx-2"></i>
+<div class="line-star"></div>
+</div>
+
+<div class="container">
+    <div class="row g-3 m-2">
+    @for (item of arrImgs; track $index) {
+        <div class="col-md-6 col-lg-4">
+            <div class="inner rounded-3 overflow-hidden position-relative" (click)="modalImg=item.img;modalView=false">
+                <img [src]="item.img" alt="" class="w-100 ">
+                <div class="layer position-absolute w-100 h-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-plus text-white fa-3x"></i></div>
+            </div>
+        </div>
+    }
+    </div>
+</div>
+
+<div (click)="showModel($event,img)" class="myModal position-fixed top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center"
+[class.d-none]="modalView">
+    <img #img [src]="modalImg" alt="" class="w-50">
+</div>

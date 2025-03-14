@@ -1,0 +1,29 @@
+h1{
+    color:rgb(44, 62, 80);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.contact{
+    min-height: 80vh;
+}
+
+.line-star{
+    background-color: #2C3E50;
+}
+
+label{
+    color: rgb(26, 188, 156);
+}
+form label{
+    transition: all .5s;
+}
+
+.top-400{
+    top: 400px !important;
+}
+
+.fcontact label {
+    transition: all 0.5s;
+}

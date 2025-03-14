@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+.nav-link{
+    transition: unset !important;
+}
+.active-link{
+    background-color: #1abc9c;
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+}
+
+.line-star{
+    background-color: white;
+    width: 60px;
+    height: 3px;
+    display: inline-block;
+}
